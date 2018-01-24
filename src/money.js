@@ -1,4 +1,4 @@
-function Money(majorAmount, minorAmount) {
+function Money(majorAmount = 0, minorAmount = 0) {
     this.majorAmount = majorAmount;
     this.minorAmount = minorAmount;
     this.currency = 'EUR';
